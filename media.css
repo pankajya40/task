@@ -1,0 +1,107 @@
+@media screen and (max-width: 992px){
+  section {
+    flex-direction: column-reverse;
+  }
+  svg {
+    display: none;
+
+  }
+  .left {
+    width: 100%;
+    overflow: hidden;
+  }
+  .right {
+    width: 100%;
+  }
+
+  .right img {
+    width: 200px;
+    position: relative;
+    bottom: -50px;
+  }
+
+  .heading {
+    display: none;
+  }
+  .experience {
+    top: 16%;
+  }
+
+  .experience img, .ABC{
+    margin: 0;
+  }
+
+  .description {
+    top: 30%;
+  }
+
+  .design-app {
+    top: -26%;
+  }
+
+  .section-3 .right .tracking-app {
+    width: 200px;
+  }
+
+  .fintness-app {
+    top: 33%;
+  }
+
+  .section-4 .right img {
+    width: 150px;
+  }
+
+  .section-4 .right .app {
+    display: flex;
+  }
+
+  .domino-app  {
+    padding: 0;
+    top: 0%;
+  }
+
+  .development-app {
+    position: relative;
+    top: -40%;
+  }
+
+
+  .box-bread {
+    width: 100%;
+    top: -80%;
+    justify-content: end;
+  }
+  .section-4 .right .bread2 {
+    width: 200px;
+    right: -80px;
+  }
+
+  .section-6 .experience {
+    position: relative;
+    top: 12%;
+  }
+
+  .section-6 .right .melto1 {
+    top: 10px;
+    left: 10%;
+    z-index: 1;
+    
+  }
+
+  .section-6 .right .melto2 {
+    top: 40%;
+  }
+  
+  .section-7  .right img {
+    min-width: 130px;
+    max-width: 200px;
+  }
+
+  .section-7 .right .div1 .above {
+    position: relative;
+    bottom: -20px;
+
+  }  
+
+  
+}
